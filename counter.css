@@ -1,0 +1,87 @@
+body {
+  color: #F0DB4F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  counter-reset: my-count 5;
+  -webkit-animation: countdown 5s linear infinite;
+  animation: countdown 5s linear infinite;
+}
+
+body::after {
+  content: counter(my-count);
+  font-size: 30em;
+}
+
+@-webkit-keyframes countdown {
+  0% {
+    background: #1E0555;
+    ;
+  }
+
+  20% {
+    counter-increment: my-count -1;
+    background: #1E0555;
+    ;
+  }
+
+  40% {
+    counter-increment: my-count -2;
+    background: #1E0555;
+    ;
+  }
+
+  60% {
+    counter-increment: my-count -3;
+    background: #1E0555;
+    ;
+  }
+
+  80% {
+    counter-increment: my-count -4;
+    background: #1E0555;
+    ;
+  }
+
+  100% {
+    background: #1E0555;
+    ;
+  }
+}
+
+@keyframes countdown {
+  0% {
+    background: #1E0555;
+    ;
+  }
+
+  20% {
+    counter-increment: my-count -1;
+    background: #1E0555;
+    ;
+  }
+
+  40% {
+    counter-increment: my-count -2;
+    background: #1E0555;
+    ;
+  }
+
+  60% {
+    counter-increment: my-count -3;
+    background: #1E0555;
+    ;
+  }
+
+  80% {
+    counter-increment: my-count -4;
+    background: #1E0555;
+    ;
+  }
+
+  100% {
+    background: #1E0555;
+    ;
+  }
+}
