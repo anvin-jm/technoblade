@@ -65,7 +65,7 @@ int[][] a = new int[n][n]; int[][] b = new int[n][n]; int[][] c = new int[n][n];
 for (int i = 0; i < n; i++)
 {for (int j = 0; j < n; j++)
 {a[i][j] = input.nextInt();}}
-System.out.println("Enter the numbers of the 2nd matrix. Numbers will be added row wise.");
+System.out.println("Enter the numbers of the 2nd matrix.");
 for (int i = 0; i < n; i++)
 {for (int j = 0; j < n; j++)
 {b[i][j] = input.nextInt();}}
