@@ -70,10 +70,7 @@ for (int i = 0; i < n; i++)
 {for (int j = 0; j < n; j++)
 {b[i][j] = input.nextInt();}}
 System.out.println("Generating the multiplication of matrices..");
-for (int i = 0; i < n; i++)
-{for (int j = 0; j < n; j++){
-for (int k = 0; k < n; k++)
-{c[i][j] = c[i][j] + a[i][k] * b[k][j];}}}`;
+}`;
   quoteDisplayElement.innerHTML = "";
   quote.split("").forEach((character) => {
     const characterSpan = document.createElement("span");
